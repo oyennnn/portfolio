@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leon | Portofolio</title>
     <link href="src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <style>
+html, body {
+  overflow-x: hidden;
+}
 .typing-container {
   display: inline-block;
   white-space: nowrap;
@@ -41,7 +45,7 @@
 </style>
 <body>
     <!-- Header Start -->
-    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10" data-aos="slide-down" data-aos-duration="2000">
       <div class="container">
         <div class="flex items-center justify-between relative">
           <div class="px-4">
@@ -85,7 +89,7 @@
     <section id="home" class="pt-36 lg:pt-0">
         <div class="container">
             <div class="flex flex-wrap">
-                <div class="w-full self-center px-4 lg:w-1/2">
+                <div class="w-full self-center px-4 lg:w-1/2" data-aos="slide-right" data-aos-duration="2000">
                     <h1 class="text-base font-semibold text-primary md:text-xl">Hello All 👋, My Name
                         <span class="block font-bold text-dark text-4xl">Leon Duta Effendy</span>
                     </h1>
@@ -93,7 +97,7 @@
                     <p class="font-medium text-secondary mb-10 leading-relaxed">"I am a dedicated <span class="font-bold text-dark">backend developer</span> with a passion for programming. Currently, I am focusing on learning PHP and Laravel to enhance my web development skills."</p>
                     <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-60 transition duration-300 ease-in-out">Contact Me</a>
                 </div>
-                <div class="w-full self-end px-4 lg:w-1/2 lg:mx-auto">
+                <div class="w-full self-end px-4 lg:w-1/2 lg:mx-auto" data-aos="slide-left" data-aos-duration="2000">
                   <div class="mt-10">
                     <img src="src/img/orang.png" alt="Leon Duta Effendy" class="max-w-full mx-auto">
                   </div>
@@ -108,7 +112,7 @@
     <section id="about" class="mt-[-10px] lg:mt-[-120px] lg:pt-20">
       <div class="w-full bg-slate-700 pt-0">
         <div class="text-center">
-          <div class="w-full pb-10 px-20">
+          <div class="w-full pb-10 px-20" data-aos="slide-up" data-aos-duration="2000">
             <h4 class="font-bold uppercase text-lg mb-3 text-primary">About Me</h4>
             <h2 class="font-bold text-white text-3xl mb-5">A Backend Developer</h2>
             <p class="font-medium text-base text-secondary"> As a student at SMK Negeri 1 Palembang, majoring in Computer and Network Engineering (TKJ), I am constantly exploring new ways to improve my technical abilities and stay updated with the latest trends in the industry. My journey in the world of programming is driven by a love for problem-solving and a desire to create efficient, scalable solutions. I also aspire to become a fullstack developer, expanding my expertise to cover both frontend and backend development.</p>
@@ -122,7 +126,7 @@
     <section id="portfolio" class="pb-16">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#334155" fill-opacity="1" d="M0,128L26.7,149.3C53.3,171,107,213,160,224C213.3,235,267,213,320,192C373.3,171,427,149,480,160C533.3,171,587,213,640,202.7C693.3,192,747,128,800,133.3C853.3,139,907,213,960,229.3C1013.3,245,1067,203,1120,165.3C1173.3,128,1227,96,1280,74.7C1333.3,53,1387,43,1413,37.3L1440,32L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
     <div class="container">
-      <div class="w-full px-4">
+      <div class="w-full px-4" data-aos="slide-up" data-aos-duration="2000">
         <div class="max-w-xl mx-auto text-center mb-16">
           <h4 class="font-semibold text-lg text-primary">Portfolio</h4>
           <h2 class="font-bold text-dark text-3xl mb-4">My Project</h2>
@@ -130,7 +134,7 @@
         </div>
       </div>
       <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
-        <div class="mb-12 p-4 md:w-1/2">
+        <div class="mb-12 p-4 md:w-1/2" data-aos="slide-right" data-aos-duration="2000">
           <div class="rounded-md shadow-md overflow-hidden">
             <img src="src/img/portofolio/portofolio.png" alt="portofolio page" width="w-full">
           </div>
@@ -142,7 +146,7 @@
           <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Landing Page Leon Duta Effendy</h3>
           <p class="font-medium text-base text-secondary">Here, you'll find a collection of my projects that demonstrate my skills in backend development, problem-solving, and my journey toward becoming a fullstack developer. Explore my work and let's connect!</p>
         </div>
-        <div class="mb-12 p-4 md:w-1/2">
+        <div class="mb-12 p-4 md:w-1/2" data-aos="slide-left" data-aos-duration="2000">
           <div class="rounded-md shadow-md overflow-hidden">
             <img src="src/img/portofolio/portofolio.png" alt="portofolio page" width="w-full">
           </div>
@@ -154,7 +158,7 @@
           <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Landing Page Leon Duta Effendy</h3>
           <p class="font-medium text-base text-secondary">Here, you'll find a collection of my projects that demonstrate my skills in backend development, problem-solving, and my journey toward becoming a fullstack developer. Explore my work and let's connect!</p>
         </div>
-        <div class="mb-12 p-4 md:w-1/2">
+        <div class="mb-12 p-4 md:w-1/2" data-aos="slide-right" data-aos-duration="2000">
           <div class="rounded-md shadow-md overflow-hidden">
             <img src="src/img/portofolio/portofolio.png" alt="portofolio page" width="w-full">
           </div>
@@ -166,7 +170,7 @@
           <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Landing Page Leon Duta Effendy</h3>
           <p class="font-medium text-base text-secondary">Here, you'll find a collection of my projects that demonstrate my skills in backend development, problem-solving, and my journey toward becoming a fullstack developer. Explore my work and let's connect!</p>
         </div>
-        <div class="mb-12 p-4 md:w-1/2">
+        <div class="mb-12 p-4 md:w-1/2" data-aos="slide-left" data-aos-duration="2000">
           <div class="rounded-md shadow-md overflow-hidden">
             <img src="src/img/portofolio/portofolio.png" alt="portofolio page" width="w-full">
           </div>
@@ -187,28 +191,28 @@
     <section id="certificate" class="pb-16 bg-slate-700">
       <div class="container">
         <div class="w-full px-4 pt-20">
-          <div class="max-w-xl mx-auto text-center mb-16">
+          <div class="max-w-xl mx-auto text-center mb-16" data-aos="slide-up" data-aos-duration="2000">
             <h4 class="font-semibold text-lg text-primary">Certificate</h4>
             <h2 class="font-bold text-white text-3xl mb-4">My Certificate</h2>
             <p class="font-medium text-secondary">I have collected various certificates that demonstrate my skills and accomplishments in the field of information technology. These certificates cover a range of aspects from software development to project management, showcasing my commitment to continuous learning and growth in the industry. Each certificate represents an important milestone in my professional journey, strengthening the competencies and skills I possess</p>
           </div>
         </div>
         <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
-          <div class="mb-12 p-4 md:w-1/2">
+          <div class="mb-12 p-4 md:w-1/2" data-aos="slide-right" data-aos-duration="2000">
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="src/img/certificate/provinsi.jpg" alt="portofolio page" width="w-full">
             </div>
             <h3 class="font-semibold text-xl text-white mt-5 mb-3">"1st Place in the 2024 Provincial Level Skills Competition (LKS) of South Sumatra for Vocational High Schools (SMK)"</h3>
             <p class="font-medium text-base text-secondary">Category: IT Software Solution for Business</p>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
+          <div class="mb-12 p-4 md:w-1/2" data-aos="slide-left" data-aos-duration="2000">
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="src/img/certificate/finalis.jpg" alt="portofolio page" width="w-full">
             </div>
             <h3 class="font-semibold text-xl text-white mt-5 mb-3">"National Finalist Lks in the 2024 Vocational High School (SMK) Skills Competition"</h3>
             <p class="font-medium text-base text-secondary">Category: IT Software Solution for Business</p>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
+          <div class="mb-12 p-4 md:w-1/2" data-aos="slide-right" data-aos-duration="2000">
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="src/img/certificate/moe.jpg" alt="portofolio page" width="w-full">
             </div>
@@ -223,20 +227,20 @@
     <!-- Social Start -->
     <section id="social" class="pb-16 pt-16">
       <div class="text-center">
-        <div class="w-full pb-10 px-20">
+        <div class="w-full pb-10 px-20" data-aos="slide-up" data-aos-duration="2000">
           <h4 class="font-bold uppercase text-lg mb-3 text-primary">Social</h4>
           <h2 class="font-bold text-dark text-3xl mb-5">Connect With Me</h2>
         </div>
       </div>
       <div class="container">
         <div class="flex flex-wrap justify-between">
-          <a href="https://github.com/oyennnn" target="_blank" class="w-full px-4 bg-slate-600 rounded-lg py-3 shadow-lg lg:w-[49%] hover:-translate-y-2 mb-3">
+          <a href="https://github.com/oyennnn" target="_blank" class="w-full px-4 bg-slate-600 rounded-lg py-3 shadow-lg lg:w-[49%] mb-3" data-aos="slide-right" data-aos-duration="2000">
             <div class="flex items-center">
               <i class="fa-brands fa-github fa-2xl text-primary"></i>
               <p class="font-bold text-3xl text-primary ml-3">Github</p>
             </div>
           </a>
-          <a href="https://www.instagram.com/leon_duta/" target="_blank" class="w-full px-4 bg-slate-600 rounded-lg py-3 shadow-lg lg:w-[49%] hover:-translate-y-2 mb-3">
+          <a href="https://www.instagram.com/leon_duta/" target="_blank" class="w-full px-4 bg-slate-600 rounded-lg py-3 shadow-lg lg:w-[49%] mb-3" data-aos="slide-left" data-aos-duration="2000">
             <div class="flex items-center">
               <i class="fa-brands fa-instagram fa-2xl text-primary"></i>
               <p class="font-bold text-3xl text-primary ml-3">Instagram</p>
@@ -250,20 +254,20 @@
     <!-- Contact Start -->
     <section id="social" class="pb-16 pt-16">
       <div class="text-center">
-        <div class="w-full pb-10 px-20">
+        <div class="w-full pb-10 px-20" data-aos="slide-up" data-aos-duration="2000">
           <h4 class="font-bold uppercase text-lg mb-3 text-primary">Contact</h4>
           <h2 class="font-bold text-dark text-3xl mb-5">Contact Me</h2>
         </div>
       </div>
       <div class="container">
         <div class="flex flex-wrap justify-between">
-          <a href="https://wa.me/6285600721976" target="_blank" class="w-full px-4 bg-primary rounded-lg py-3 shadow-lg lg:w-[49%] hover:-translate-y-2 mb-3">
+          <a href="https://wa.me/6285600721976" target="_blank" class="w-full px-4 bg-primary rounded-lg py-3 shadow-lg lg:w-[49%] mb-3" data-aos="slide-right" data-aos-duration="2000">
             <div class="flex items-center">
               <i class="fa-brands fa-whatsapp fa-2xl text-secondary"></i>
               <p class="font-bold text-3xl text-secondary ml-3">Whatsapp Me</p>
             </div>
           </a>
-          <a href="https://www.instagram.com/leon_duta/" target="_blank" class="w-full px-4 bg-primary rounded-lg py-3 shadow-lg lg:w-[49%] hover:-translate-y-2 mb-3">
+          <a href="mailto:yonnn1007@gmail.com" target="_blank" class="w-full px-4 bg-primary rounded-lg py-3 shadow-lg lg:w-[49%] mb-3" data-aos="slide-left" data-aos-duration="2000">
             <div class="flex items-center">
               <i class="fa-regular fa-envelope fa-2xl text-secondary"></i>
               <p class="font-bold text-3xl text-secondary ml-3">Email Me</p>
@@ -275,7 +279,7 @@
     <!-- Contact End -->
 
     <!-- Footer Start -->
-    <section id="social" class="pt-16 pb-8">
+    <section id="contact" class="pt-16 pb-8">
       <div class="container">
         <div class="w-full bg-slate-700 rounded-lg px-5 py-3">
           <p class="text-base text-white ">&copy; 2024 <span class="text-primary">Leon Duta Effendy</span>. All rights reserved.</p>
@@ -287,5 +291,9 @@
     <script src="script.js"></script>
     <script src="src/js/script.js"></script>
     <script src="https://kit.fontawesome.com/b0d080580d.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
